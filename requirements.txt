@@ -1,13 +1,5 @@
-
 ipykernel
 pandas
 matplotlib
 scikit-learn
 streamlit
-ipykernel
-pandas
-matplotlib
-scikit-learn
-streamlit
-1
-numpy

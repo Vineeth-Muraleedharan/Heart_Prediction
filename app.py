@@ -68,9 +68,6 @@ if st.button("Predict"):
     else:
         st.success("You are Safe!")
 
-import streamlit as st
-import joblib
-import numpy as np
 
 # Load the trained model and scaler
 heart_model = joblib.load('heart_failure_model.pkl')
