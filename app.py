@@ -67,7 +67,7 @@ if st.button("Predict"):
         st.error("Risk of heart failure! Please consult a doctor.")
     else:
         st.success("You are Safe!")
-=======
+
 import streamlit as st
 import joblib
 import numpy as np
@@ -101,4 +101,4 @@ if st.button("Predict"):
     else:
         st.success("You are Safe!")
         
->>>>>>> 4d61a4377353799184e2835ca1646fc28dbb3bd1
+
