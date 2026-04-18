@@ -27,17 +27,17 @@ This will start the application and provide a link to access it via your web bro
 ## Input Features Description
 The model takes the following 12 clinical parameters as input:
 1. Age
-2. Sex
-3. Chest Pain Type
-4. Resting Blood Pressure
-5. Serum Cholesterol
-6. Fasting Blood Sugar
-7. Resting ECG
-8. Maximum Heart Rate
-9. Exercise Induced Angina
-10. ST Depression
-11. Slope of Peak Exercise ST Segment
-12. Number of Major Vessels (0-3) Colored by Fluoroscopy
+2. Anaemia
+3. Creatinine Phosphokinase
+4. Diabetes
+5. Ejection Fraction
+6. High Blood Pressure
+7. Platelets
+8. Serum Creatinine
+9. Serum Sodium
+10. Sex
+11. Smoking
+12. Time (Follow-up period in days)
 
 ## Model Information
 The model used in this project is based on [insert model details: e.g., Logistic Regression, Random Forest, etc.]. It was trained on historical heart disease data for optimal accuracy.
