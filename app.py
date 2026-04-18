@@ -48,9 +48,9 @@ st.image("https://www.ultromics.com/hubfs/AdobeStock_707051168-1.jpeg",
 
 age = st.slider("Age", 20, 95, 60)
 anaemia = st.selectbox("Anaemia", [0, 1])
-creatinine = st.number_input("Creatinine Phosphokinase", min_value=0, max_value=10000, value=500)
+creatinine = st.number_input("Creatinine Phosphokinase", min_value=0, max_value=10000, value=100)
 diabetes = st.radio("Diabetes", [0, 1], format_func=lambda x: "Yes" if x == 1 else "No")
-ejection_fraction = st.number_input("Ejection Fraction", min_value=10, max_value=80, value=30)
+ejection_fraction = st.number_input("Ejection Fraction", min_value=10, max_value=80, value=60)
 hbp = st.radio("High Blood Pressure", [0, 1], format_func=lambda x: "Yes" if x == 1 else "No")
 platelets = st.number_input("Platelets", min_value=0, max_value=1000000, value=250000)
 serum_creatinine = st.number_input("Serum Creatinine", min_value=0.0, max_value=20.0, value=1.0)
