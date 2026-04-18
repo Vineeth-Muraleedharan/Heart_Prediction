@@ -1,6 +1,14 @@
+<<<<<<< HEAD
 ipykernel
 pandas
 matplotlib
 scikit-learn
 streamlit
+=======
+ipykernel
+pandas
+matplotlib
+scikit-learn
+streamlit
+>>>>>>> 4d61a4377353799184e2835ca1646fc28dbb3bd1
 numpy
